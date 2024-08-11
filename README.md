@@ -1,20 +1,30 @@
-**Toll Plaza Simulation Program - Quick Guide**
-Overview:
-This C++ program mimics a toll plaza system, where users log in, select their vehicle type, and receive a toll receipt.
-**Features**
-•	_Login Authentication_: Enter username UMER and password 123 to access the system.
-•	_Vehicle Toll Calculation_: Choose from five vehicle types (Car, Jeep, Truck, Bus, Van) to calculate the toll.
-•	_Instant Receipt_: Receive a detailed transaction receipt with vehicle type, plaza number, and toll amount.
-**Key Functions**
-•	_tollPlaza(int &amount, int vehicleType, int plazaNumber)_: Determines the toll based on vehicle type.
-•	_printTransactionReceipt(int amount, int vehicleType, int plazaNumber)_: Prints the toll receipt.
-**How It Works**
-1.	Login: Authenticate using UMER and 123.
-2.	Choose Vehicle: Select the type of vehicle.
-3.	Get Receipt: The system calculates and displays the toll.
-Example Interaction:
+# Toll Plaza Simulation Program
 
-Copy code
+## Overview
+This C++ program simulates a toll plaza system. It allows users to log in, select their vehicle type, and receive a toll receipt.
+
+## Features
+- **Login Authentication**: 
+  - Access the system with the username `UMER` and password `123`.
+- **Vehicle Toll Calculation**: 
+  - Supports five vehicle types: Car, Jeep, Truck, Bus, and Van.
+  - Automatically calculates the toll based on vehicle type.
+- **Instant Receipt Generation**: 
+  - Displays a detailed transaction receipt, including vehicle type, plaza number, and toll amount.
+
+## Key Functions
+- **`tollPlaza(int &amount, int vehicleType, int plazaNumber)`**: 
+  - Calculates the toll based on the selected vehicle type.
+- **`printTransactionReceipt(int amount, int vehicleType, int plazaNumber)`**: 
+  - Prints a formatted receipt with all necessary details.
+
+## How to Use
+1. **Login**: Start by entering the username `UMER` and password `123`.
+2. **Choose Vehicle**: Select your vehicle type from the options provided.
+3. **Get Receipt**: The system calculates the toll and displays a receipt.
+
+## Example Interaction
+```plaintext
 Enter username: UMER
 Enter password: 123
 Login authenticated
@@ -26,6 +36,6 @@ Plaza Number: 5
 Toll Amount: $800
 -------------------
 Press -1 to exit, or any other key for another entry:
-**Summary:**
-This program is a streamlined toll plaza simulator that emphasizes simplicity and efficiency in toll calculation and receipt generation.
 
+**Summary**
+This program is a simple, efficient toll plaza simulator designed to make toll calculation and receipt generation quick and easy.
